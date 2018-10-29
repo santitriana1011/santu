@@ -1,0 +1,187 @@
+header{
+	font-size: 30px;
+	background: white;
+	text-align: left;
+	clear: both;
+	padding: 10px 5px;
+	width: 1500px auto;
+}
+
+body{
+	background-color: #D4D4D4;
+}
+
+.logo1{
+	margin-left: 50px;
+}
+
+
+.todito::after{
+	content: "";
+	clear: both;
+	display: block;
+	max-width: 100%;
+}
+
+#container{
+	width: 90%;
+	margin: 0px auto;
+	max-width: 100%;
+	min-width: 780px;
+	
+}
+
+
+
+
+
+h1{
+	font-size: 50px;
+	text-align: left;
+}
+
+.flecha{
+  background-repeat: no-repeat;	
+  padding-left: 97px;
+}
+
+a:hover img{
+	-moz-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-webkit-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-o-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-ms-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+
+
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+}
+
+h2{
+	color: #F13B9D;
+	display: inline;
+}
+
+h3{
+	text-align: right;
+	color: #F13B9D;
+	display: inline;
+}
+
+.titulos{
+	list-style: none;
+	float: right;
+	padding: 20px 3px;
+	display: inline-block;
+	color: #F13B9D;
+	text-decoration: none;
+	font-size: 25px;
+	padding-right: 15px;
+	margin-right: 235px;
+
+}
+
+.caja1, .caja2, .caja3{
+	background-color: #605B5B;
+	color: white;
+	margin-left: 1%;
+	margin-right: 145px;
+	padding-right: 25px;
+	display: block;
+	float: right;
+}
+
+.numero1, .numero2, .numero3{
+	float: left;
+	border-right: 1px solid white;
+	font-size: 90px;
+}
+
+.numero1{
+	color: #1BF935;
+	
+}
+
+.numero2{
+	color: #F2923D;
+	
+}
+
+.numero3{
+	color: #2CD8EC;
+	
+}
+
+.caja1{
+	box-sizing: content-box;
+	margin-right: 90px;
+}
+
+.caja2{
+	box-sizing: content-box;
+}
+
+.caja3{
+	box-sizing: content-box;
+}
+
+table{
+	clear: both;
+	margin: 85px auto;
+}
+
+table tr {
+	border-bottom: solid 1px #4E4D4D;
+	padding: 12px;
+	margin: 0px 10px;
+}
+
+.capa{
+	width: 200px;
+}
+
+.euros{
+	font-size: 25px;
+}
+
+.botonFinal ul{
+	list-style: none;
+}
+.botonFinal ul li{
+	float: right;
+}
+.botonFinal ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	width: 80%;
+}
+.botonFinal ul li a{
+	background: #F14198;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-bottom: 12%;
+}
+
+
+footer{
+	font-size: 20px;
+	background: #000000;
+	color: white;
+	text-align: left;
+	clear: both;
+	padding: 10px 5px;
+	border-top: 8px solid red;
+	width: 1500px auto;
+
+}
+
+@media only screen and (max-width: 800px) {
+	body{
+		background-color:#666060;
+	}
+}
